@@ -1,0 +1,67 @@
+
+body {
+  background-image: url("../../img/ShieldsFondo.png");
+  background-size: 1370px 630px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.boton-cerrar img{
+  width: 85px;
+  height: 85px;
+  top: 70px; 
+  left: 325px; 
+} 
+
+.boton-abrir img{
+  width: 137px;
+  height: 110px;
+  top: 445px; 
+  left: 402px;
+  box-shadow: #eeff00; 
+} 
+
+img {
+  position: absolute;
+    top: 70px; 
+    left: 400px; 
+  }
+
+  /*Hexagonos*/
+
+.Hexagono1 img {  
+  width:280px;
+  height: 216px;
+  top: 280px; 
+  left:678px;
+}
+
+
+.Hexagono2 img {   /**medida del hexagono*/
+  width:308px;
+  height: 228px;
+  top: 200px; 
+  left: 518px;
+}
+
+.Hexagono3 img {  
+  width:272px;
+  height: 200px;
+  top: 144px; 
+  left:677px;
+}
+
+.Hexagono4 img {  
+  width:204px;
+  height:178px;
+  top: 160px; 
+  left: 436px;
+}
+
+p {
+  font-size: 1px;
+}
+
+.audios{
+  display: none
+}

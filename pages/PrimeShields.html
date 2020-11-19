@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/css/PrimeShields.css">
+    <title>Prime Shields</title>
+</head>
+
+<body>
+    <div class="boton-abrir">
+        <a onclick="mostrar()">
+            <img src="https://i.ibb.co/kMD4Grp/Escudos.png">
+        </a>
+    </div>
+
+    <div class="container-escudos" id="divEscudos">
+
+        <div class="boton-cerrar">
+            <a onclick="cerrar()">
+                <img src="https://i.ibb.co/wzMh2sv/Cerrar.png">
+            </a>
+        </div>
+
+        <div>
+            <img class="shield" src="https://i.ibb.co/ByzsJHT/Whats-App-Image-2020-11-07-at-8-40-12-PM.jpg" height="500"
+                width="550">
+        </div>
+
+        <div class="audios">
+            
+            <audio id="audioEscudos" controls>
+                <source type="audio/wav" src="../sound/AudioBotonEscudos.mpeg">
+            </audio>
+
+            <audio id="audioCierre" controls>
+                <source type="audio/wav" src="../sound/AudioCierre.mpeg">
+            </audio>
+
+        </div>
+
+
+        <a id="Hexuno" class="Hexagono1" onclick="hexagono()">
+            <img src="https://i.ibb.co/bHQTrMx/Hexagono-3-0.png">
+        </a>
+
+        <a id="Hexdos" class="Hexagono2" onclick="hexagonoDos()">
+            <img src="https://i.ibb.co/rwqddV7/Hexagono-prueba.png">
+        </a>
+
+        <a id="Hextres" class="Hexagono3" onclick="hexagonoTres()">
+            <img src="https://i.ibb.co/T1QRx1T/Hexagono-2-0.png">
+        </a>
+
+        <a id="Hexcuatro" class="Hexagono4" onclick="hexagonoCuatro()">
+            <img src="https://i.ibb.co/rM8xR3q/Hexagono-izquierdo.png">
+        </a>
+
+    </div>
+
+    <!--<p id="tareaTerminada"></p>
+    <p id="contador"></p>-->
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="../js/PrimeShields.js"></script>
+
+</body>
+
+</html>
